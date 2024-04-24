@@ -1,0 +1,17 @@
+.cartas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ 
+ 
+}
+
+.card{  
+    transition: 1s; 
+    &:hover{
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+}
