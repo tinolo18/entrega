@@ -25,20 +25,19 @@
 }
 
 .boxform {
-  border: solid white 2px;
+  border: solid #fffafa 2px;
   border-radius: 10px;
 }
 
 .formulario {
   margin: 3em;
-  color: white;
+  color: #fffafa;
 }
 
 .cartas {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 
 .card {
@@ -60,13 +59,12 @@
 
 body {
   background-color: black !important;
-  background-image: url("https://pixnio.com/free-images/2023/07/17/2023-07-17-10-28-04-1344x1680.jpg");
 }
 
 .titulo {
   text-align: center;
-  color: white;
-  border: solid white 2px;
+  color: #fffafa;
+  border: solid #fffafa 2px;
   font-size: 2rem;
 }
 
@@ -74,18 +72,13 @@ body {
   margin: 20px;
 }
 
-.slogan {
-  text-align: center;
-  color: white;
-}
 footer {
   display: flex;
-  background-color:black;
+  background-color: black;
   background-size: cover;
   background-position: center;
   margin-top: 100px;
 }
-
 
 footer iframe {
   height: 200px;
@@ -106,7 +99,6 @@ footer iframe {
   position: absolute;
   justify-content: center;
   right: 10px;
-
 }
 
 .buttons a {
@@ -118,10 +110,9 @@ footer iframe {
   text-decoration: none;
   transition: 1s;
 }
-.buttons a:hover{
- 
-    transform:scale(1.5);
-    transition: 1s;
+.buttons a:hover {
+  transform: scale(1.5);
+  transition: 1s;
 }
 
 footer ul {
@@ -132,58 +123,46 @@ footer li {
   padding: 15px;
 }
 
-@media(max-width: 1024px){
-
-  footer iframe{
+@media (max-width: 1024px) {
+  footer iframe {
     height: 150px;
     width: 300px;
   }
-
-  .texto-footer{
+  .texto-footer {
     font-size: 18px;
     margin-right: 60px;
   }
-
-  .buttons a{
+  .buttons a {
     font-size: 25px;
   }
-
-  footer li{
+  footer li {
     padding: 8px;
   }
 }
-
-@media(max-width: 768px){
-
-  .texto-footer{
+@media (max-width: 768px) {
+  .texto-footer {
     font-size: 16px;
   }
-
-  footer iframe{
+  footer iframe {
     width: 200px;
   }
 }
-
-@media(max-width: 480px){
-
-  .texto-footer{
+@media (max-width: 480px) {
+  .texto-footer {
     font-size: 10px;
   }
-
-  footer iframe{
+  footer iframe {
     height: 120px;
     width: 100px;
   }
-
-  .buttons a{
+  .buttons a {
     font-size: 15px;
   }
-
-  footer li{
+  footer li {
     padding: 2px;
   }
-
 }
-
-/*# sourceMappingURL=style.css.map */
-
+.slogan {
+  text-align: center;
+  color: #fffafa;
+}/*# sourceMappingURL=style.css.map */
